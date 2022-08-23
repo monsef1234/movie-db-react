@@ -28,6 +28,7 @@ const InfoOfMovie = () => {
   useEffect(() => {
     getData();
   }, []);
+
   const { Title, Year, Plot, Poster } = movie;
 
   return (
